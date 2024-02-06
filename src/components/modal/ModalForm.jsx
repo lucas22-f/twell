@@ -15,6 +15,7 @@ function ModalForm() {
 
     return (
         <>
+        <div className='m-3 p-3 shadow border rounded'>
             <h2>Pedi tu remis al 11 3187-0312</h2>
             <Button className="button success" onClick={handleShow}>
                 Pedi Tu viaje
@@ -44,6 +45,7 @@ function ModalForm() {
                 </Modal.Footer>
 
             </Modal>
+            </div>
         </>
     );
 }
